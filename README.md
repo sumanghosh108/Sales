@@ -19,6 +19,7 @@ This project focuses on:
 - Business insights through rich visualizations
 ## SQL
 SQL queries addressing key business questions such as:
+
 **Data Exploration**
 - Display all records
 - Retrieve unique regions
@@ -54,6 +55,7 @@ SQL queries addressing key business questions such as:
 - Profit Contribution (%)
 ## DAX
 **Measures**
+
 Online Sales Profit,
 Offline Sales Profit,
 Revenue for High / Medium Priority Orders,
@@ -63,6 +65,7 @@ Top 5 Countries by Profit,
 Top 3 Item Types by Revenue
 
 **Calculated Columns**
+
 Profit per Unit,
 Profit Category (High / Medium / Low),
 Profit Margin (%),
@@ -83,7 +86,8 @@ Year extracted from Order Date
 - Revenue trend by Sales Channel
 ## Summary
 This project demonstrates an end-to-end analytics workflow:
-SQL for detailed data exploration
-Power BI for interactive reporting
-DAX for advanced calculations
+
+SQL for detailed data exploration,
+Power BI for interactive reporting,
+DAX for advanced calculations,
 Data storytelling through visual analysis
