@@ -20,67 +20,67 @@ This project focuses on:
 ## SQL
 SQL queries addressing key business questions such as:
 **Data Exploration**
-Display all records
-Retrieve unique regions
-Count total orders
+- Display all records
+- Retrieve unique regions
+- Count total orders
 
 **Profit & Revenue Analysis**
-Revenue by region
-Profit by country (sorted)
-Orders with profit > 5000
-Loss-making orders (Unit Cost > Unit Price)
+- Revenue by region
+- Profit by country (sorted)
+- Orders with profit > 5000
+- Loss-making orders (Unit Cost > Unit Price)
 
 **Date-Based Queries**
-Orders between specific dates
-Latest 5 orders
-Monthly cost and profit
+- Orders between specific dates
+- Latest 5 orders
+- Monthly cost and profit
 
 **Categorization & Ranking**
-Profit-level segmentation (High, Medium, Low)
-Top 5 countries by profit
-Top 10 orders by revenue
+- Profit-level segmentation (High, Medium, Low)
+- Top 5 countries by profit
+- Top 10 orders by revenue
 ## Dashboard
 **Slicers:**
-Region
-Country
-Item Type
-Sales Channel
+- Region
+- Country
+- Item Type
+- Sales Channel
 
 **KPI Cards:**
-Total Revenue
-Total Profit
-Profit Margin (%)
-Total Orders
-Profit Contribution (%)
+- Total Revenue
+- Total Profit
+- Profit Margin (%)
+- Total Orders
+- Profit Contribution (%)
 ## DAX
 **Measures**
-Online Sales Profit
-Offline Sales Profit
-Revenue for High / Medium Priority Orders
-Profit Contribution % by Region
-Total Profit by Item Type
-Top 5 Countries by Profit
+Online Sales Profit,
+Offline Sales Profit,
+Revenue for High / Medium Priority Orders,
+Profit Contribution % by Region,
+Total Profit by Item Type,
+Top 5 Countries by Profit,
 Top 3 Item Types by Revenue
 
 **Calculated Columns**
-Profit per Unit
-Profit Category (High / Medium / Low)
-Profit Margin (%)
-Shipping Duration (days)
+Profit per Unit,
+Profit Category (High / Medium / Low),
+Profit Margin (%),
+Shipping Duration (days),
 Year extracted from Order Date
 ## Visualizations
-Total Profit by Country (Top 5 highlighted)
-Profit Contribution (%) by Region
-Online vs Offline Profit Comparison
-Revenue by Order Priority
-Item Type vs Profit vs Margin
-Yearly Revenue Trend
-Average Shipping Duration
-Profit Category Distribution
-Region–Country profit matrix
-Combined bar-line charts
-Heat Map & Tree Map
-Revenue trend by Sales Channel
+- Total Profit by Country (Top 5 highlighted)
+- Profit Contribution (%) by Region
+- Online vs Offline Profit Comparison
+- Revenue by Order Priority
+- Item Type vs Profit vs Margin
+- Yearly Revenue Trend
+- Average Shipping Duration
+- Profit Category Distribution
+- Region–Country profit matrix
+- Combined bar-line charts
+- Heat Map & Tree Map
+- Revenue trend by Sales Channel
 ## Summary
 This project demonstrates an end-to-end analytics workflow:
 SQL for detailed data exploration
