@@ -1,16 +1,17 @@
-# Sales Analytics Project
+# Sales Analytics
 This repository contains an end-to-end Sales Analytics Project using SQL, Power BI, and DAX.
 The project explores sales performance across multiple regions, countries, item types, sales channels, and time periods.
 It includes structured queries, DAX measures, calculated columns, and a complete Power BI dashboard design.
-## 1. Project Overview
+## 1. Overview
 The dataset includes sales transactions with fields such as:
-- Region & Country
-- Item Type
-- Sales Channel (Online / Offline)
-- Order Priority
-- Units Sold, Unit Price, Unit Cost
-- Total Revenue, Total Profit
-- Order Date & Ship Date
+
+Region & Country,
+Item Type,
+Sales Channel (Online / Offline),
+Order Priority,
+Units Sold, Unit Price, Unit Cost,
+Total Revenue, Total Profit,
+Order Date & Ship Date
 
 This project focuses on:
 - SQL-based data exploration and analysis
@@ -21,25 +22,29 @@ This project focuses on:
 SQL queries addressing key business questions such as:
 
 **Data Exploration**
-- Display all records
-- Retrieve unique regions
-- Count total orders
+
+Display all records,
+Retrieve unique regions,
+Count total orders
 
 **Profit & Revenue Analysis**
-- Revenue by region
-- Profit by country (sorted)
-- Orders with profit > 5000
-- Loss-making orders (Unit Cost > Unit Price)
+
+Revenue by region,
+Profit by country (sorted),
+Orders with profit > 5000,
+Loss-making orders (Unit Cost > Unit Price)
 
 **Date-Based Queries**
-- Orders between specific dates
-- Latest 5 orders
-- Monthly cost and profit
+
+Orders between specific dates,
+Latest 5 orders,
+Monthly cost and profit
 
 **Categorization & Ranking**
-- Profit-level segmentation (High, Medium, Low)
-- Top 5 countries by profit
-- Top 10 orders by revenue
+
+Profit-level segmentation (High, Medium, Low),
+Top 5 countries by profit,
+Top 10 orders by revenue
 ## Dashboard
 **Slicers:**
 - Region
@@ -63,7 +68,6 @@ Profit Contribution % by Region,
 Total Profit by Item Type,
 Top 5 Countries by Profit,
 Top 3 Item Types by Revenue
-
 **Calculated Columns**
 
 Profit per Unit,
